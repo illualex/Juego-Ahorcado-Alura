@@ -1,0 +1,399 @@
+@import url('http://fonts.cdnfonts.com/css/pf-tempesta-five');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PF Tempesta Five Condensed', sans-serif;
+    background-image: radial-gradient(circle at 43.84% 120.44%, #a455b7 0, #7d459c 16.67%, #57337c 33.33%, #321f59 50%, #110b37 66.67%, #00001b 83.33%, #000000 100%);
+  }
+  
+  .subrayado{
+    display:flex;
+  }
+
+  .esconderLetra{
+    display: none;
+    font-size: 18px;
+  }
+  
+  .btn-iniciar{
+    background-color: #ff007b;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  .btn-iniciar:hover {opacity: 1}
+  
+  .btn-palabra{
+    background-color: #ff007b;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+    }
+    .btn-palabra:hover {opacity: 1}
+  
+    .text-input {
+      position: absolute;
+      font-weight: 600;
+      line-height: 150%;
+      color: #ffffff;
+      background:#000000;
+      border: none;
+      text-transform:uppercase;
+      }
+    ::placeholder { color: #ffffff; text-transform:lowercase;}
+    
+    .text-input:focus { 
+        border: none;
+        outline: none;
+        }
+
+  .logo{
+    position: absolute;
+  }
+
+  .img-alerta{
+    position: absolute;
+  }
+   label {
+    position: absolute;
+    width: 300px;
+    height: 18px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    color: #ffffff;
+   }
+  .form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: auto;
+    height: 18px;
+    left: 2rem;
+    top: 41rem;
+   }
+  .botones-div{
+    position: absolute;
+   }
+
+  .btn-nuevojuego {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  .btn-nuevojuego:hover {opacity: 1}
+
+  .btn-salida{
+    background-color: #ff7300;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  .btn-salida:hover {opacity: 1}
+
+  .btn-guardar{
+    background-color: #08a102;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  .btn-guardar:hover {opacity: 1}
+
+  .btn-cancelar{
+    background-color: #ff0d00;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  .btn-cancelar:hover {opacity: 1}
+
+  .botones-div-canvas{
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+   }
+   .botones-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left:0rem;
+   }
+   .palabra-nueva{
+    position: absolute;
+    left: 30rem;
+   }
+
+
+  @media only screen and (min-width: 1080px) and (max-width: 1920px){
+    .logo{
+      left: 2rem;
+      right: 0rem;
+      top: 2rem;
+      bottom: 6rem;
+      width: 5rem;
+      height: 5rem;
+    } 
+
+    .botones-home{
+      top: 16rem;
+      left: 31rem;
+    }
+    
+    .btn-palabra{
+      width: 20rem;
+      height: 5rem;
+      top: 7rem;
+      left: 0rem;
+      font-size: 1.7rem;
+      line-height: 2rem;
+    }
+
+    .btn-iniciar{
+        width: 20rem;
+        height: 5rem;
+        top: 1rem;
+        left: -1rem;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .btn-nuevojuego{
+      width: 16rem;
+      height: 4.5rem;
+      left: 0rem;
+      top: 0rem;
+      font-size: 2rem;
+      line-height: 1rem;
+      margin-bottom: 0rem;
+    }
+
+    .btn-salida{
+      width: 16rem;
+      height: 4.5rem;
+      left: 0rem;
+      top: 0rem;
+      font-size: 2rem;
+      line-height: 1rem;
+      margin-bottom: 0rem;
+    }
+
+    .btn-guardar{
+      width: 25rem;
+      height: 5rem;
+      top: 1rem;
+      left: 0rem;
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+
+    .btn-cancelar{
+      width: 20rem;
+      height: 5rem;
+      top: 1rem;
+      left: -1rem;
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+    
+    label {
+      top: -22.5rem;
+      left: -8rem;
+      padding-left: 0rem;
+      font-size:1.5rem;
+     }
+     .form-group{
+      left: 1.5rem;
+      top: 710px;
+     }
+     .botones-div{
+      width: 0rem;
+      height: 0rem;
+      left: -7rem;
+      top: 25rem; 
+      display: flex;
+     }
+    .text-input {
+      width: 50rem;
+      height: 5rem;
+      left: -12rem;
+      top: 15rem;
+      font-size:3rem;
+      text-align: center;
+    }
+    .img-alerta{
+      left: -13rem;
+      right: 0rem;
+      top: -23rem;
+      bottom: 0rem;   
+    }
+    .canvas{
+      margin-left: -4rem;
+      width: 740px;
+      height:800px
+    }
+    .botones-div-canvas{
+      width: 0rem;
+      height: 0rem;
+      left: 65rem;
+      top: 10rem;
+      
+    }
+   }
+  
+  
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body{
+      min-width: 375px;
+      min-height: 667px;
+    }
+    .logo{
+      left: 4.27%;
+      right: 87.2%;
+      top: 25px;
+      bottom: 25px;
+      width: 50px;
+      height: 50px;
+    } 
+    .botones-home{
+      top: 16rem;
+      left: 4.2rem;
+    }
+    .btn-palabra{
+      width: 200px;
+      height: 57px;
+      left: 1rem;
+      top: 6.5rem;
+      font-size: 16px;
+      line-height: 0px;
+    }
+    .btn-iniciar{
+    width: 230px;
+    height: 90px;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    line-height: 10px;
+    }
+    .btn-azul{
+      width: 300px;
+      height: 57px;
+      left: 0;
+      top: 450px;
+      font-size: 18px;
+      line-height: 20px;    
+    }
+    .btn-blanco{
+      width: 300px;
+      height: 57px;
+      left: 0;
+      top: 480px;
+      font-size: 18px;
+      line-height: 20px;    
+    }
+    label {
+      width: 200px;
+      height: 18px;
+      left: 16px;
+      top: 451px;
+      font-size:18px;
+      padding-left: 2.5rem;
+     }
+     .form-group{
+      left: 16px;
+      top: 451px;
+     }
+     .botones-div{ 
+      flex-wrap: wrap; 
+      width: 343px;
+      height: 158px;
+      left: 0;
+      top: 30rem;    
+     }
+     .text-input { 
+      width: 343px;
+      height: auto;
+      left: 16px;
+      top: 152px;
+      font-size:32px;
+      line-height: 150%;
+      }
+      .palabra-nueva{
+        top:0.4rem;
+        left: 0.1rem;
+      }
+       .img-alerta{
+        left: 1rem;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;   
+      }
+      .canvas{
+        margin-left: 2.5rem;
+        width: 1024px;
+        height:800px
+      }
+      .botones-div-canvas{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+      
+        position: absolute;
+        width: 680px;
+        height: 67px;
+        left: 28.5rem;
+        top: 760px;
+        margin-bottom: 25px;
+       }
+   } */
+  
