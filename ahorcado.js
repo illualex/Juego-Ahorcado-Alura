@@ -8,7 +8,7 @@ let btnSalir = document.getElementById("btn-salir");
 let btnCancelar = document.getElementById("btn-cancelar");
 
 
-var palabras = ['HOLA'];
+var palabras = ['PERRO','MANZANA', 'CASA', 'PIXEL', 'GATO', 'MATE', 'TERMO', 'BANANA', 'TELEFONO'];
 var tablero = document.getElementById('horca').getContext('2d');
 var palabraSecreta = "";
 var letras = [];
